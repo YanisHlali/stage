@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #45521F;
+}
+
+div.header {
+    position: relative;
+    top: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+}
+
+img.croix {
+    width: 50px;
+    height: 50px;
+}
+
+form {
+    position: relative;
+    top: 55px;
+    margin: 0 auto;
+    width: 85%;
+    border-radius: 5px;
+    /* height: 200px; */
+    background: #CEAB5D;
+}
+
+nav {
+    position: relative;
+    top: 50px;
+    border: 1px solid black;
+    background: #7c3200;
+}
+
+ul {
+    border: 1px solid red;
+}
+
+li {
+    display: inline-block;
+    width: 33%;
+    font-size: 45px;
+    text-align: center;
+}
+
+li a {
+    color: white;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #472612;
+}
+
+textarea,input {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    width: 250px;
+    background: #909B25;
+    border: none;
+    color: white;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+form p.erreur {
+    font-size: 25px;
+    text-align: center;
+    color: red;
+    font-family: "Roboto", sans-serif;
+}
+
+table {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 250px;
+}
+td {
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center; 
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    width: 250px;
+}
+
+td a {
+    color: black;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}

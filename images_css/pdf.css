@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+p.intitule {
+    font-size: 15px;
+    text-align: right;
+}
+h1.categorie {
+    text-decoration: underline;
+    overflow: visible;
+    left: 0;
+    right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #E1E2E6;
+}
+p.experience {
+    font-size: 20px;
+    text-decoration: underline;
+}
+p {
+    font-size: 15px;
+}
